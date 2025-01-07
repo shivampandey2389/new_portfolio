@@ -797,4 +797,13 @@ form .btn{
    .rounded-box{
     font-size: 10px;
   }
+  @keyframes resize{
+  from{
+    width: 0;
+    height: 0;
+  }
+  to{
+    width: 300px;
+  }
+}
 }
