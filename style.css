@@ -791,4 +791,7 @@ form .btn{
   .show-cnt button {
     padding:10px;
 }
+  .info a {
+    font-size: 14px;
+  }
 }
