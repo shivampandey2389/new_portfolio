@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="cnt">
+    <div class="inner-cnt">
+    <aside class="brd-r aside-1">
+      <section class="profile-sec">
+        <div class="profile-img">
+          <img src="assests/PortFolio_profile_Photo.jpeg" alt="profile-img" srcset="" height="150px" width="120px">
+        </div>
+        <span >Shivam Pandey</span>
+        <span class="designation-box">Full Stack Developer</span>
+      </section>
+
+      <section class="other-info">
+        
+        <div class="info">
+          <div class="dob flex gap-1">
+            <i class="fa-regular fa-calendar-days box-icon"></i>
+            <div class="flex flex-col">
+              <span class="gray-text">BIRTHDAY</span>
+              <span class="font-sz-sm">March 5,2005</span>
+            </div>
+          </div>
+          <div class="location flex gap-1">
+            <i class="fa-solid fa-location-dot box-icon"></i>
+            <div class="flex flex-col">
+              <span class="gray-text">LOCATION</span>
+              <span class="font-sz-sm">Mumbai</span>
+            </div>
+            
+          </div>
+
+          <div class="email flex gap-1">
+            <i class="fa-solid fa-envelope box-icon"></i>
+            <div class="flex flex-col">
+              <span class="gray-text">EMAIL</span>
+              <a href="https://shivampandey2389@gmail.com" target="_blank" class="font-sz-sm">shivampandey@...</a>
+            </div>
+            
+          </div>
+          <div class="phone flex gap-1">
+            <i class="fa-solid fa-phone box-icon"></i>
+            <div class="flex flex-col">
+              <span class="gray-text">PHONE</span>
+              <a href="#" target="_blank" class="font-sz-sm">+91 9322826601</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-media">
+
+        <a href="https://github.com/shivampandey2389" class="github" target="_blank">
+          <i class="fa-brands fa-github box-icon"></i>
+        </a>
+
+        <a href="https://www.instagram.com/_shivampandeyy__/?next=%2F" class="instagram" target="_blank">
+          <i class="fa-brands fa-instagram box-icon"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/shivam-pandey-0840462a2/" class="linkdin" target="_blank">
+          <i class="fa-brands fa-linkedin box-icon"></i>
+        </a>
+
+        <a href="https://x.com/shivampandey053" class="twitter" target="_blank">
+          <i class="fa-brands fa-x-twitter box-icon"></i>
+        </a>
+      </section>
+    </aside>
+
+  <div class="header-mob">
+    <div class="header-mob-profile">
+      <div class="header-mob-profile-1">
+        <img src="assests/PortFolio_profile_Photo.jpeg" alt="" width="100px">
+        <div class="name_designation">
+          <span>Shivam Pandey</span>
+          <span class="designation-box">Full Stack Developer</span>
+        </div>
+      </div>
+        <div class="show-cnt">
+          <button onclick="header_phn()">Show contact</button>
+        </div>
+    </div>
+
+    <!-- contact option in media queries -->
+    <div class="phn-cnt-info">
+      <div class="info">
+        <div class="dob flex gap-1">
+          <i class="fa-regular fa-calendar-days box-icon"></i>
+          <div class="flex flex-col">
+            <span class="gray-text">BIRTHDAY</span>
+            <span class="font-sz-sm">March 5,2005</span>
+          </div>
+        </div>
+        <div class="location flex gap-1">
+          <i class="fa-solid fa-location-dot box-icon"></i>
+          <div class="flex flex-col">
+            <span class="gray-text">LOCATION</span>
+            <span class="font-sz-sm">Mumbai</span>
+          </div>
+          
+        </div>
+
+        <div class="email flex gap-1">
+          <i class="fa-solid fa-envelope box-icon"></i>
+          <div class="flex flex-col">
+            <span class="gray-text">EMAIL</span>
+            <a href="https://shivampandey2389@gmail.com" target="_blank" class="font-sz-sm">shivampandey2389@gmail.com</a>
+          </div>
+          
+        </div>
+        <div class="phone flex gap-1">
+          <i class="fa-solid fa-phone box-icon"></i>
+          <div class="flex flex-col">
+            <span class="gray-text">PHONE</span>
+            <a href="#" target="_blank" class="font-sz-sm">+91 9322826601</a>
+          </div>
+        </div>
+      </div>
+      <div class="social-media">
+
+        <a href="https://github.com/shivampandey2389" class="github" target="_blank">
+          <i class="fa-brands fa-github box-icon"></i>
+        </a>
+
+        <a href="https://www.instagram.com/_shivampandeyy__/?next=%2F" class="instagram" target="_blank">
+          <i class="fa-brands fa-instagram box-icon"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/shivam-pandey-0840462a2/" class="linkdin" target="_blank">
+          <i class="fa-brands fa-linkedin box-icon"></i>
+        </a>
+
+        <a href="https://x.com/shivampandey053" class="twitter" target="_blank">
+          <i class="fa-brands fa-x-twitter box-icon"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+
+    <!-- menu section media queries -->
+    <div class="menu-phn-section">
+      <button onclick="switchSection('About')" >About</button>
+      <button onclick="switchSection('Resume')">Resume</button>
+      <button onclick="switchSection('Portfolio')">Portfolio</button>
+      <button onclick="switchSection('Contact')">Contact</button>
+    </div>
+
+
+    <section class="brd-r body-sec">
+      <!-- Heading section -->
+       <section class="heading-part">
+
+      <header><span class="main-heading">About</span></header>
+       <div class="main-heading-menu">
+        <button onclick="switchSection('About')" >About</button>
+        <button onclick="switchSection('Resume')">Resume</button>
+        <button onclick="switchSection('Portfolio')">Portfolio</button>
+        <button onclick="switchSection('Contact')">Contact</button>
+        </div>
+
+      </section>
+      <!-- About Section -->
+      <article>
+      <section id ="About" class="art-sec About-sec active">
+      
+      <div class="intro-about flex flex-col">
+        <p>
+          Hello,I'm shivam pandey ,pursing my graduation in Bsc.Cs from Trcac with strong inclination towards web development . I'm on the journey to leverage my skills and creativity to craft innovative digital experiences.</p>
+
+        <p>
+          I believe in the power of continuous learning and always ready to eager on new challenges during my academic journey i build strong foundation on my web development, data science and Ai and Ml skills I'm truely excited to contribute my skills in growth of oraganization.I'm dedicated to honing my skills,gaining real-world experience and making meaningful connection in the professional world.</p>
+        
+       </div>
+
+       <div class="Skills">
+          <span class="About-heading"> Skills</span>
+          <div class="skill-section flex">
+
+            <div class=" skill-box flex">
+              <i class="fa-solid fa-crop-simple"></i>
+              <div class="skill-intro-1">
+                <h3 class="font-sz-md">Web Design</h3>
+                <p class="font-sz-sm">The most modern and high-quality design made at a professional level.</p>
+              </div>
+            </div>
+
+            <div class=" skill-box flex">
+              <i class="fa-solid fa-laptop-code"></i>
+              <div class="skill-intro-1">
+                <h3 class="font-sz-md">Web development</h3>
+                <p class="font-sz-sm">High-quality development of sites at the professional level.</p>
+              </div>
+            </div>
+            
+            <div class=" skill-box flex">
+              <i class="fa-solid fa-chart-line"></i>
+              <div class="skill-intro-1">
+                <h3 class="font-sz-md">Data Analysis</h3>
+                <p class="font-sz-sm">Analysis can be performed using python libraries.</p>
+              </div>
+            </div>
+
+            <div class=" skill-box flex">
+              <i class="fa-solid fa-chart-line"></i>
+              <div class="skill-intro-1">
+                <h3 class="font-sz-md">Programming Languages</h3>
+                <p class="font-sz-sm">Logic and Project experience of different Programming Languages.</p>
+              </div>
+            </div>
+            
+          </div>
+       </div>
+
+       <div class="Download-work-section flex">
+        <a href="Resume.pdf" download>
+          <button class="btn-about flex">
+            <i class="fa-solid fa-circle-arrow-down"></i></i>
+            <span>Resume</span>
+          </button>
+        </a>
+           
+
+          <button class="btn-about flex" onclick="switchSection('Portfolio')">
+            <i class="fa-solid fa-code"></i>
+            <span>My work</span></button>       
+       </div>
+
+      </section>
+
+      <!-- Resume -->
+      <section id="Resume" class="art-sec resume-sec" >
+
+        <div class="resume-ed flex flex-col">
+            <div  class="ed-heading flex">
+              <i class="fa-solid fa-book box-icon"></i>
+              <span>Education</span>
+            </div>
+          <ul class="edu-detail flex flex-col">
+            <li>
+              <span class="balls-pointer"></span>
+               <span class="heading-ed">B.Sc.(Computer Science) , Mumbai University(2025) -- currently pursing</span>
+            </li>
+
+            <li>
+              <span class="balls-pointer"></span>
+               <span class="heading-ed">XII<sup>th</sup> (Science Stream) , Maharashtra Board Of Higher Education(2022)</span>
+            </li>
+
+            <li>
+              <span class="balls-pointer"></span>
+               <span class="heading-ed">X<sup>th</sup> ,Maharashtra Board Of Higher Education(2020)</span>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="resume-tool-tech">
+            <div class="resume-tool-tech-heading flex">
+              <i class="fa-solid fa-screwdriver-wrench box-icon"></i>
+              <span>Tools & Technologies</span>
+            </div>
+           <div class="box-tools-tech flex">
+            <div class="tech-per flex flex-col">
+              <span>SQL</span>
+              <span>NoSQL</span>
+              <span>React</span>
+              <span>Node.js</span>
+            </div>
+            <div class="tech-per-1 flex flex-col">
+              <div class="green-complete flex">
+                <div class="progress-bar flex" id="progress0" style="width: 0%;"></div>
+              </div>
+              <div class="green-complete flex">
+                <div class="progress-bar flex" id="progress1" style="width: 0%;"></div>
+              </div>
+              <div class="green-complete flex">
+                <div class="progress-bar flex" id="progress2" style="width: 0%;"></div>
+              </div>
+              <div class="green-complete flex">
+                <div class="progress-bar flex" id="progress3" style="width: 0%;"></div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </section>
+
+       <!-- portfolio -->
+      <section id="Portfolio" class=" art-sec portfolio-section port-min-height" >
+        <div class="portfolio-sec-opt">
+          <button class="rounded-box">All</button>
+          <button class="rounded-box">Frontend Project</button>
+          <button class="rounded-box">FullStack Project</button>
+        </div>
+
+        <div class="portfolio-project-section">
+          <div class="sub-portfolio-project-section">
+          <a href="https://logex-umber.vercel.app/">
+            <img src="./assests/Screenshot 2024-12-18 145249.png" alt=""
+            height="300px">
+          </a>
+        </div>
+       
+        <div class="sub-portfolio-project-section">
+          <a href="https://portfolio-henna-chi-52.vercel.app/index.html">
+            <img src="./assests/Screenshot 2024-12-18 145344.png" alt=""
+            height="300px">
+          </a>
+        </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+
+      <section id="Contact" class="art-sec contact-section "  >
+        <div class="map-section">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6820851731304!2d72.80920647594193!3d19.426137440885825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a966e0037039%3A0xabd18656d293412a!2sGulmohar%20Heritage%2C%20GULMOHAR%20HERITAGE%20BUILDING-3%2C%20Zero%20Rd%2C%20Aakash%20Nagar%2C%20Nilemore%2C%20Morya%20Nagar%2C%20Nala%20Sopara%2C%20Maharashtra%20401203!5e0!3m2!1sen!2sin!4v1735120973197!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-form">
+          <span class="contact-form-font">Contact Form</span>
+          <form>
+            <div class="name_no flex width-cnt">
+              <input type="text" placeholder="Full Name">
+              <input type="text" placeholder="Contact No.">
+          </div>
+          <div class="msg_contact">
+           <textarea placeholder="Message"></textarea>
+          </div>    
+          <div class="btn"> 
+          <button class="flex"><i class="fa-regular fa-paper-plane"></i>  <span>Send Message</span></button>
+         </div>
+          </form>
+        </div>
+      </section>
+    </article>
+    </section>
+  </div>
+  </div>
+</body>
+</html>
