@@ -794,7 +794,7 @@ form .btn{
   .info a {
     font-size: 14px;
   }
-   .rounded-box a{
-    font-size: 5px;
+   .rounded-box{
+    font-size: 10px;
   }
 }
