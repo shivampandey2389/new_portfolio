@@ -788,4 +788,7 @@ form .btn{
   form input ,form textarea , .btn button{
     font-size: 13px;
   }
+  .show-cnt button {
+    padding:10px;
+}
 }
