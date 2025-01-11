@@ -701,6 +701,9 @@ form .btn{
   }
   .intro-about p{
     font-size: 14px;
+    word-wrap: break-word; /* Breaks long words */
+    overflow-wrap: break-word;
+    text-align: justify
   }
   .font-sz-sm {
     font-size: 14px;
